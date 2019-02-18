@@ -1,0 +1,26 @@
+program timerTest;
+uses {imagination} Swingame, sgTypes, SysUtils;
+
+procedure Main();
+var
+	testTimer:Timer;
+begin
+	testTimer:=CreateTimer();
+	StartTimer(testTimer);
+	
+	OpenGraphicsWindow('TimerTest', 800, 500);
+	repeat
+	Writeln('Ticks: ',TimerTicks(testTimer));
+	RefreshScreen(60);
+	ResetTimer(testTimer);
+	until WindowCloseRequested();
+end;
+
+begin
+	Main();
+end.
+
+{
+	Timer outputs 0 most of the time. It probably isn't accurate enough, so I should stick
+	to frame-by-frame simulation. Who knows.
+}

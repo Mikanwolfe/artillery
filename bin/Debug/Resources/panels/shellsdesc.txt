@@ -1,0 +1,10 @@
+x: 10
+y: 90
+w: 327
+h: 324
+a: shellsdesc.png
+i: shellsdesc.png
+b: shellsdesc.png
+
+d:false;
+v:false

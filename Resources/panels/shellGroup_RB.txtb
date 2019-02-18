@@ -1,0 +1,23 @@
+x: 30
+y: 430
+w: 354
+h: 55
+//active bmp
+a:shellsActive.png
+//bg BMP
+b:shellsInactive.png
+//Inactive BMP
+i:shellsInactive.png
+
+d:false;
+v:false
+
+// Region data 
+// Format: r: x, y, w, h, kind 
+r: 3  ,4,47,47, RadioGroup, ShellButton1, ShellType
+r: 53 ,4,47,47, RadioGroup, ShellButton2, ShellType
+r: 103,4,47,47, RadioGroup, ShellButton3, ShellType
+r: 153,4,47,47, RadioGroup, ShellButton4, ShellType
+r: 203,4,47,47, RadioGroup, ShellButton5, ShellType
+r: 253,4,47,47, RadioGroup, ShellButton6, ShellType
+r: 303,4,47,47, RadioGroup, ShellButton7, ShellType

@@ -1,0 +1,21 @@
+x: 10
+y: 90
+w: 42
+h: 333
+//active bmp
+a:shellsActive.png
+//bg BMP
+b:shellsInactive.png
+//Inactive BMP
+i:shellsInactive.png
+
+d:false;
+v:false;
+
+// Region data 
+// Format: r: x, y, w, h, kind 
+r: 9,6,26,37, CheckBox, InfoButton
+r: 2,48 ,36,66, CheckBox, ShellButton1
+r: 2,117,36,66, CheckBox, ShellButton2
+r: 2,183,36,66, CheckBox, ShellButton3
+r: 2,252,36,66, CheckBox, ShellButton4
