@@ -1,5 +1,5 @@
 # The Artillery Project
-High Distinction Project for COS10001, Swinburne University of Technology
+High Distinction Project for COS10006, Swinburne University of Technology
 
 by mikanwolfe, mikanwolfe@nekox.net
 
