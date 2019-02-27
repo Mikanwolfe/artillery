@@ -1,8 +1,0 @@
-Free Pascal Compiler version 2.6.4 [2014/03/06] for i386
-Copyright (c) 1993-2014 by Florian Klaempfl and others
-Target OS: Win32 for i386
-Compiling .\src\.\Artillery.pas
-Artillery.pas(335,52) Error: Identifier not found "RotateScaleBitmap"
-Artillery.pas(1035,4) Fatal: There were 1 errors compiling module, stopping
-Fatal: Compilation aborted
-Error: c:\FPC\2.6.4\bin\i386-Win32\ppc386.exe returned an error exitcode (normal if you did not specify a source file to be compiled)

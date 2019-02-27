@@ -1,20 +1,7 @@
-Free Pascal Compiler version 2.6.4 [2014/03/06] for i386
-Copyright (c) 1993-2014 by Florian Klaempfl and others
-Target OS: Win32 for i386
-Compiling .\src\.\ArtilleryVFinal.pas
-ArtilleryVFinal.pas(801,2) Note: Local variable "partRect" is assigned but never used
-ArtilleryVFinal.pas(817,10) Note: Local variable "previousLocation" not used
-ArtilleryVFinal.pas(819,2) Note: Local variable "partRect" is assigned but never used
-ArtilleryVFinal.pas(841,2) Note: Local variable "gunPosition" not used
-ArtilleryVFinal.pas(869,2) Note: Local variable "i" is assigned but never used
-ArtilleryVFinal.pas(968,2) Note: Local variable "x" not used
-ArtilleryVFinal.pas(968,4) Note: Local variable "y" not used
-ArtilleryVFinal.pas(1181,6) Note: Local variable "distanceTo" not used
-ArtilleryVFinal.pas(1272,4) Note: Local variable "pos" not used
-ArtilleryVFinal.pas(1407,2) Note: Local variable "i" not used
-ArtilleryVFinal.pas(1608,4) Note: Local variable "k" not used
-ArtilleryVFinal.pas(2007,2) Note: Local variable "j" not used
-ArtilleryVFinal.pas(2167,2) Note: Local variable "j" not used
-Linking .\bin\Debug\Artillery II.exe
-2241 lines compiled, 1.6 sec , 289280 bytes code, 49292 bytes data
-13 note(s) issued
+Free Pascal Compiler version 3.0.4+dfsg-20ubuntu1 [2018/08/29] for x86_64
+Copyright (c) 1993-2017 by Florian Klaempfl and others
+Target OS: Linux for x86-64
+Compiling ./src/./ArtilleryVFinal.pas
+ArtilleryVFinal.pas(2,20) Fatal: Can't find unit Swingame used by ArtilleryV
+Fatal: Compilation aborted
+Error: /usr/bin/ppcx64 returned an error exitcode
