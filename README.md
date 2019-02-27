@@ -12,9 +12,13 @@ Having limited formal experience in programming  (mostly batch script up until t
 Artillery is centred around terrain  generation but eventually came to encompass a number of gameplay  elements. Using my university's SwinGame API, Artillery is a turn-based  2D shooter, in the sense that players play as artillery pieces and lob projectiles across the map.
 
 Though written on Pascal, Artillery contains the implementation of:
+
 • simple OOP methods and principles
+
 • a good understanding and use of data structures
+
 • the midpoint displacement algorithm to generate terrain
+
 • a simple implementation of animations, such as seen in the tracers, text, and explosions.
 
 Most  of the introduction to programming unit was, for me, an opportunity to  consolidate my understanding of programming and formalising both how I  program and how I approached programming as a whole.
@@ -22,7 +26,7 @@ Most  of the introduction to programming unit was, for me, an opportunity to  co
 This README is a work in progress, I will update this with my "Design Document" that I produced along with proper documentation  and compiliation instructions, however, I do not intend to continue development of artillery. 
 
 ---
-
+This work received a mark of 100 out of 100 for COS10009.
 
 
 If you have any questions or concerns, send a message to mikanwolfe@nekox.net. The author is lonely and would like someone to talk to.
