@@ -23,10 +23,15 @@ Though written on Pascal, Artillery contains the implementation of:
 
 Most  of the introduction to programming unit was, for me, an opportunity to  consolidate my understanding of programming and formalising both how I  program and how I approached programming as a whole.
 
-This README is a work in progress, I will update this with my "Design Document" that I produced along with proper documentation  and compiliation instructions, however, I do not intend to continue development of artillery. 
+This work received a mark of 100 out of 100 for COS10009.
 
 ---
-This work received a mark of 100 out of 100 for COS10009.
+
+## Artillery
+
+
+
+
 
 
 If you have any questions or concerns, send a message to mikanwolfe@nekox.net. The author is lonely and would like someone to talk to.
