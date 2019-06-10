@@ -1,37 +1,48 @@
-# The Artillery Project
-High Distinction Project for COS10006, Swinburne University of Technology
-
-by mikanwolfe, mikanwolfe@nekox.net
+# Artillery II
+by mikanwolfe, 03-2018 mikanwolfe@nekox.net
 
 ---
 
-Artillery II, otherwise known as Artillery, was the result of the High  Distinction (High band, 91-100) project I undertook during the first  half of 2018.
+**Artillery II** or Artillery is a 2D physics-based point-to-point shooter best described as 'tanks' from one side. Players move their *artillery pieces* across a randomly-generated map and interact with map effects to destroy one another. 
 
-Having limited formal experience in programming  (mostly batch script up until that point), this introduction unit have  me the opportunity to fully utilise a programming language. Having  finished most of the unit tasks early on, it took about 8 weeks to bring  concept to reality.
+Artillery II refers to the extension of the original program, Artillery, however they are now one and the same.
 
-Artillery is centred around terrain  generation but eventually came to encompass a number of gameplay  elements. Using my university's SwinGame API, Artillery is a turn-based  2D shooter, in the sense that players play as artillery pieces and lob projectiles across the map.
+**Features:**
 
-Though written on Pascal, Artillery contains the implementation of:
+* Midpoint displacement terrain generation
+* Destructible terrain
+* Three vehicles to choose from
+* Effects appear on map (mirror, power-up, split)
+* Wind
+* Air resistance for all weapons
 
-• simple OOP methods and principles
+**Controls:**
 
-• a good understanding and use of data structures
-
-• the midpoint displacement algorithm to generate terrain
-
-• a simple implementation of animations, such as seen in the tracers, text, and explosions.
-
-Most  of the introduction to programming unit was, for me, an opportunity to  consolidate my understanding of programming and formalising both how I  program and how I approached programming as a whole.
-
-This work received a mark of 100 out of 100 for COS10009.
+| Command       | Key                  |
+| ------------- | -------------------- |
+| Move          | `Left, Right`        |
+| Aim Weapon    | `Up, Down`           |
+| Charge Weaopn | `Spacebar` (Hold)    |
+| Fire          | `Spacebar` (Release) |
 
 ---
 
-## Artillery
+### The Project
 
+Artillery II is the result of a High Distinction Project for COS10007: Introduction to Programming and is written procedurally in Pascal. It acts as a central learning experience for both the strengths and the weaknesses of procedural programming and the workflow required to produce high-quality, robust, and extensive programs. From a limited programming background, Artillery illustrates the requirement to think from a different point of view when approaching programming topics and the implementation of real-world ideas (such as the diamond-square/midpoint displacement algorithm) into code.
 
+Artillery II received full marks for this unit, classified as "something special" compared to other HD Projects.
 
+#### Artillery II Package
 
+Artillery II was written in Pascal with SwinGame (see [here](http://swingame.com/) for more details). As it was along time ago, there are two recommendations for working with what remains: 
+
+1. There should be a binary, presumably it's safe. 
+2. Run MinGW and run the `build.sh` file. For more details consult SwinGame.
+
+Artillery II has a sequel! Artillery3! See [here](https://github.com/Mikanwolfe/Artillery3) for more details!
+
+---
 
 
 If you have any questions or concerns, send a message to mikanwolfe@nekox.net. The author is lonely and would like someone to talk to.
